@@ -1,0 +1,314 @@
+/* Designs for elements */
+
+.center-text{
+    text-align: center;
+}
+
+.menu-active{
+    border: thin solid #786bff;
+    color: #786bff;
+    border-radius: 50px;
+}
+
+.mobile-nav{
+	display: none;
+  	position: fixed;
+    box-sizing: border-box;
+}
+
+.mobile-nav img{
+    display: none;
+}
+
+.mobile-active div{
+	display: inline-block;
+}
+
+header .hero{
+    text-align: center;
+}
+
+.field{
+    border: thin solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.button{
+    color: white;
+    background-color: #786bff;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    border: thin solid #786bff;
+    cursor: pointer;
+}
+
+.search{
+    background-color: #ebeff2;
+    border: thin solid #ebeff2;
+    padding: 10px 10px;
+    font-size: 0.7em;
+    width: 45%;
+    text-indent: 30px;
+    color: #333;
+    letter-spacing: 0.1em;
+    background-image: url("../svg/search.svg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.container, .post{
+    padding: 30px 30px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #dedede;
+}
+
+.container{
+    cursor: pointer;
+}
+
+.comment{
+    font-size: 0.7em;
+    color: #8b9bae;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 330px;
+    position: fixed;
+    z-index: 998;
+    top: 100px;
+    left: 150px;
+    word-break: break-word;
+}
+
+.profile h5{
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.profile span{
+    color: #786bff;
+    font-size: 0.8em;
+    padding: 0 15px;
+}
+
+.profile div span{
+    font-size: 0.9em;
+    padding: 0;
+    color: #786bff;
+}
+
+.profile div{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.newsfeed{
+    width: 55%;
+    height: 500px;
+    padding: 5px;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+.albumfeed{
+    width: 65%;
+    padding: 5px;
+}
+
+.newsfeed::-webkit-scrollbar{
+    display: none;
+}
+
+.photofeed{
+    flex-flow: wrap;
+  	display: none;
+}
+
+.photofeed div{
+  	background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    margin: 2px 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.resize div{
+    width: 293px;
+    height: 293px;
+    margin-bottom: 100px;
+}
+
+.userfeed span{
+    padding: 10px;
+	border-radius: 50px;
+}
+
+.byline{
+    color: #786bff;
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.username{
+    cursor: pointer;
+}
+
+.showmore{
+    width: 100%;
+    display: none;
+}
+
+.profile-pic-thumbnail{
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.users-container{
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.users-container div{
+    cursor: pointer;
+    color: #786bff;
+}
+
+.users-container img{
+    width: 60px;
+    height: 60px;
+}
+
+.users-container span{
+    font-size: 0.8em;
+}
+
+#top{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    z-index: 998;
+    bottom: 40px;
+    right: -400px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.reveal-top{
+    -ms-transform: translate(-440px, 0); /* IE 9 */
+    -webkit-transform: translate(-440px, 0); /* Safari */
+    transform: translate(-440px, 0); /* Standard syntax */
+}
+
+.albumfeed{
+	display: none;
+}
+
+.tab{
+	margin: 5px;
+}
+
+.tab .active{
+	background-color: transparent;
+  	color: #786bff;
+}
+
+#popup-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px 150px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    color: white;
+    top: 100%;
+    text-align: center;
+}
+
+#popup-container h3, #popup-container p{
+    color: white;
+}
+
+#popup-container span{
+    font-weight: bold;
+    color: #786bff;
+}
+
+#popup-container img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+#popup-container p{
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#popup-container .close{
+    width: 30px;
+    height: 30px;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 1003;
+    cursor: pointer
+}
+
+.about{
+    width: 500px;
+    margin: 0 auto;
+    cursor: auto;
+}
+
+.about p{
+    font-size: 0.8em;
+    line-height: 20px;
+    text-indent: 30px;
+    
+}
+
+.about span{
+    color: #786bff;
+}
+
+#searchfeed{
+    max-height: 200px;
+    overflow-y: scroll;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 55px;
+    padding: 10px 150px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    z-index: 1000;
+}
+
+#searchfeed p{
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#searchfeed span{
+    color: #786bff;
+}

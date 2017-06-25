@@ -1,0 +1,39 @@
+/* Pseudoclasses */
+
+.search:focus{
+    border: thin solid #786bff;
+    background-image: url("../svg/search-active.svg");
+}
+
+nav ul li:hover, .username:hover{
+    color: #786bff;
+}
+
+.byline:hover{
+    text-decoration: underline;
+}
+
+.showmore:hover{
+    background-color: rgba(99, 28, 208, 0);
+    border: thin solid #631cd0;
+    color: #631cd0;
+}
+
+.comment:hover{
+    text-decoration: underline;
+}
+
+.photofeed div:hover, #top:hover{
+    opacity: 1;
+}
+
+#popup-container p:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1008px){
+    .search:focus{
+        border: thin solid #6258c9;
+        background-image: url("../svg/search-active.svg");
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coincedence - About this MP</title>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/async.js"></script>
+        <script type="text/javascript" src="js/default.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,300,100,500,600" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        
+		<link rel="stylesheet" type="text/css" href="css/theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/flex.css" />
+        <link rel="stylesheet" type="text/css" href="css/pseudo.css" />
+        <link rel="stylesheet" type="text/css" href="css/transitions.css" />
+        <link rel="stylesheet" type="text/css" href="css/mediaquery.css" />
+    </head>
+    <body onload="readyHomePage()">
+        <section id="popup-container" onmouseover="preventScrolling(true)" onmouseout="preventScrolling(false)"></section>
+        <nav class="flex-row-between">
+            <ul class="web-nav">
+                <a href="index.html"><li>Home</li></a>
+                <a href="photos.html"><li>Photos</li></a>
+            </ul>
+            <input type="text" class="search" placeholder="Search Coincedence..." onchange="search(true)" onblur="search(false)" />
+            <ul class="web-nav">
+                <a href="about.html"><li class="menu-active">About this MP</li></a>
+            </ul>
+        </nav>
+        <section id="searchfeed"></section>
+        
+      	<div class="mobile-nav flex-row-around">
+            <a href="index.html"><div><img src="svg/newspaper.svg"></div></a>
+            <a href="photos.html"><div><img src="svg/image.svg"></div></a>
+            <a href="about.html"><div><img src="svg/info-active.svg" /></div></a>
+        </div>
+        <header>
+            <div class="container about">
+                <h2>About this MP</h2>
+                <p>
+                    This is a client side web application that loads data from a JSON server using AJAX. The goal of this machine project is to display all contents from <span><a href="https://jsonplaceholder.typicode.com">https://jsonplaceholder.typicode.com</a></span>, a JSON placeholder website, to our localhost website.<br/><br/>
+                    
+                    <span>Team members:</span><br/>
+                    Mariel Luis<br/>
+                    Uriel Promentilla<br/>
+                    Mike Jaren Yap
+                </p>
+            </div>
+        </header>
+        <footer>&copy; Coincedence 2017. All Rights Reserved.</footer>
+        <img src="svg/top.svg" id="top" onclick="backToTop()" />
+    </body>
+</html> 
